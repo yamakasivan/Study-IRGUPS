@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="media1/logo.ico">
+    <title>FlightPool</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/font.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-item navbar-logo">
+            <img src="media1/logo.png" alt="">
+        </div>
+        <div class="spacer"></div>
+        <div class="navbar-item">
+            <a href="index.html">Главная</a>
+        </div>
+        <div class="navbar-item">
+            <a href="index.html#promo">Акции</a>
+        </div>
+        <div class="navbar-item">
+            <a href="search.html">Поиск</a>
+        </div>
+        <div class="navbar-item">
+            <a href="register.html">Регистрaция на рейс</a>
+        </div>
+        <div class="navbar-item">
+            <a href="login.html">Личный кабинет</a>
+        </div>
+    </nav>
+
+    <section>
+        <h1>Поиск рейса</h1>
+        <div class="card-accent">
+            <form action="search.html" method="post" class="input-container">
+                <div class="input-row">
+                    <label for="">Откуда
+                        <input type="text" placeholder="Город/аэропорт">
+                    </label>
+                    <label for="">Куда
+                        <input type="text" placeholder="Город/аэропорт">
+                    </label>
+                </div>
+                <div class="input-row">
+                    <label for="">Туда
+                        <input type="date">
+                    </label>
+                    <label for="">Обратно
+                        <input type="date">
+                    </label>
+                    <label for="">Количество пассажиров
+                        <input type="number" min="1" max="10" placeholder="1-10">
+                    </label>
+                </div>
+                <div class="input-actions">
+                    <input type="submit" value="Поиск" class="button button-white">
+                </div>
+            </form>
+        </div>
+    </section>
+    <section>
+        <h1>Забронируй сейчас</h1>
+        <h4>Забронируй и получи скидку</h4>
+    </section>
+    <section>
+        <h1>Нам доверяют</h1>
+        <ul class="promo-carousel">
+            <li class="corousel-card comment-card">
+                <h3 class="carousel-card-title">Иванов Иваг</h3>
+                <div class="carousel-card-body">Мне понравилось</div>
+            </li>
+            <li class="corousel-card comment-card">
+                <h3 class="carousel-card-title">Петр Петров</h3>
+                <div class="carousel-card-body">Все было супер!</div>
+            </li>
+            <li class="corousel-card comment-card">
+                <h3 class="carousel-card-title">Снежанна</h3>
+                <div class="carousel-card-body">Я вас люблю!</div>
+            </li>
+            <li class="corousel-card comment-card">
+                <h3 class="carousel-card-title">Karl</h3>
+                <div class="carousel-card-body">I don`t stole the corals!</div>
+            </li>
+        </ul>
+    </section>
+    <section id="promo">
+        <h1>Акции</h1>
+        <ul class="promo-carousel">
+            <li class="carousel-card" id="test-1-ai">
+                <h3 class="carousel-card-title">
+                    Returning and Changing Your Tickets</h3>
+                <div class="carousel-card-body">The pandemic has changed many travelers’ plans, but we know that it will
+                    not last forever. Once all of this is over, we will continue exploring this world the way we used
+                    to. Special rules that have been developed for this challenging situation will help you cancel your
+                    trip or postpone it until later.</div>
+                <div class="carousel-card-action"><a href="#" class="button button-text-dark">More...</a> </div>
+            </li>
+            <li class="carousel-card" id="test-2-ai">
+                <h3 class="carousel-card-title">
+                    Best offers
+                </h3>
+                <div class="carousel-card-body">To see again the streets that witnessed so much. To hug your beloved
+                    ones and look back to see what you’ve come through. And to think of new dreams that will be so
+                    special!
+                </div>
+                <div class="carousel-card-action">
+                    <a href="#" class="button button-text-dark">More...</a>
+                </div>
+            </li>
+            <li class="carousel-card" id="test-3-ai">
+                <h3 class="carousel-card-title">
+                    See you more often</h3>
+                <div class="carousel-card-body">
+                    Since the beginning of January, we have been expanding the geography of
+                    flights in Russia so that you can see your loved ones more often. Choose our company to fly to where
+                    you are always expected.
+                </div>
+                <div class="carousel-card-action">
+                    <a href="#" class="button button-text-dark">More...</a>
+                </div>
+            </li>
+            <li class="carousel-card" id="test-4-ai">
+                <h3 class="carousel-card-title">
+                    Everything is on again
+                </h3>
+                <div class="carousel-card-body">
+                    From August 10, we will resume flights to Turkey. Flights from Moscow to
+                    Antalya will be operated twice a day daily, and flights on the Moscow-Dalaman route will be operated
+                    three to seven times a week.
+                </div>
+                <div class="carousel-card-action">
+                    <a href="#" class="button button-text-dark">More...</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h1>Закрытые акции</h1>
+        <div class="card-accent">
+            <h3>Оформление подписки</h3>
+            <form class="input-container">
+                <div class="input-row">
+                    <input type="email" placeholder="Ваш E-Mail">
+                </div>
+                <div class="input-action">
+                    <input type="submit" class="button button-white" value="Подписаться">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="navbar">
+        <nav class="navbar foot">
+
+            <div class="navbar-item navbar-logo" id="footer">
+                Телефон: 8 (800) 100-10-10
+            </div>
+            <div class="spacer"></div>
+
+            <div class="navbar-item">
+                <a href="index.html">Главная</a>
+            </div>
+            <div class="navbar-item">
+                <a href="index.html#promo">Акции</a>
+            </div>
+            <div class="navbar-item">
+                <a href="search.html">Поиск</a>
+            </div>
+            <div class="navbar-item">
+                <a href="register.html">Регистрация на рейс</a>
+            </div>
+            <div class="navbar-item">
+                <a href="login.html">Личный кабинет</a>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>

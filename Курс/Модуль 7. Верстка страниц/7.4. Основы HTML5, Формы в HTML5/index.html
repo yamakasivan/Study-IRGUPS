@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5_3</title>
+</head>
+
+<body>
+
+    <form action="#">
+        <fieldset>
+            <legend> Сведения о ВАС:</legend>
+            <br>
+            <label for="fio">ФИО:
+                <input type="text" name="lastname" id="fio" required placeholder="Иванов Иван Иванович">
+            </label>
+            <br><br>
+
+            <label for="birthday"> Дата рождения:
+                <input type="date" name="birthday" id="birthday" required>
+            </label>
+            <br><br>
+
+            <label for="tel"> Номер телефона:
+                <input type="tel" name="tel" id="tel" pattern="\+7\[0-9]{3}[0-9]{2}[0-9]{2}[0-9]{3}"
+                    placeholder="+7 123 45 67 890">
+            </label>
+            <br><br>
+
+            <label for="email"> Email:
+                <input type="email" name="email" id="email" required placeholder="example@mail.ru">
+            </label>
+            <br><br>
+
+            <label for="url"> Ссылка на Вашу страницу в соц.сетях:
+                <input type="url" name="url" id="url" placeholder="https://example.ru/me">
+            </label>
+            <br><br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Ненужная информация:</legend>
+            <br>
+            <label for="awake"> Во сколько вы сегодня проснулись?
+                <input type="time" name="awake" id="awake">
+            </label>
+            <br><br>
+
+            <label for="month"> Когда вы были в отпуске?
+                <input type="month" name="month" id="month">
+            </label>
+            <br><br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Интересы:</legend>
+            <br>
+            <label for="color"> Ваш любимый цвет?
+                <input type="color" name="color" id="color">
+
+            </label>
+            <br><br>
+
+            <label for="potato"> На сколько сильно вы любите жареную картошку? <br>
+                <input type="range" name="potato" id="potato">
+            </label>
+        </fieldset>
+        <br>
+
+        <input type="submit" value="Отправить">
+    </form>
+    <br><br>
+
+
+    <video src="GOPR0062.MP4" width="500" controls poster="GOPR1051.JPG"></video>
+    <br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JH1wiKPMOnY" title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    <br><br>
+
+    <audio src="Happyland.mp3" controls></audio>
+    <br>
+
+    <iframe width="500" height="180" src="https://music.yandex.ru/iframe/#track/89854841/17678535">
+    </iframe>
+    <br><br>
+
+    <canvas id='draw' width='500' height='300' style='border:1px solid'>
+    </canvas>
+    <script>
+        let canvas = document.getElementById("draw");
+        let x = canvas.getContext("2d");
+        x.moveTo(80, 80);
+        x.lineTo(180, 70);
+
+        x.moveTo(320, 70);
+        x.lineTo(420, 80);
+
+        x.moveTo(130, 200);
+        x.lineTo(180, 250);
+        x.lineTo(320, 250);
+        x.lineTo(370, 200)
+        x.stroke();
+
+        x.beginPath();
+        x.fillStyle = "rgba(255,73,73,0.5)";
+        x.arc(70, 150, 40, 0, Math.PI * 2, true);
+        x.arc(430, 150, 40, 0, Math.PI * 2, true);
+        x.fill();
+
+    </script>
+</body>
+
+</html>

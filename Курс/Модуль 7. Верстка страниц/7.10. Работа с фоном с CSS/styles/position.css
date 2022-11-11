@@ -1,0 +1,45 @@
+div {
+    display: inline-block;
+    background: url(../pics/smile_bg.png) no-repeat azure;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    margin-right: 10px;
+    /* line-height: 60px; без контента не нужен*/
+}
+
+.one {
+    background-position: left top;
+}
+
+.two {
+    background-position: left center;
+}
+
+.three {
+    background-position: left bottom;
+}
+
+.four {
+    background-position: right top;
+}
+
+.five {
+    background-position: right center;
+}
+
+.six {
+    background-position: right bottom;
+}
+
+.seven {
+    background-position: center top;
+}
+
+.eight {
+    background-position: center center;
+}
+
+.nine {
+    background-position: center bottom;
+}

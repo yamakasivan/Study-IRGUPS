@@ -1,0 +1,22 @@
+div {
+    width: 10em;
+    height: 10em;
+    border: 5px dashed orange;
+    background: url(../pics/medved.jpg) no-repeat;
+    display: inline-block;
+    margin-right: 15px;
+    padding: 15px;
+    /* color: yellow; - нет текста для этого стиля */
+}
+
+.item1 {
+    background-origin: padding-box;
+}
+
+.item2 {
+    background-origin: border-box;
+}
+
+.item3 {
+    background-origin: content-box;
+}

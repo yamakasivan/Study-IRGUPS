@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="media1/logo.ico">
+    <title>Поиск | FlightPool</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/search.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-item navbar-logo">
+            <img src="media1/logo.png" alt="">
+        </div>
+        <div class="spacer"></div>
+        <div class="navbar-item">
+            <a href="index.html">Главная</a>
+        </div>
+        <div class="navbar-item">
+            <a href="index.html#promo">Акции</a>
+        </div>
+        <div class="navbar-item">
+            <a href="search.html">Поиск</a>
+        </div>
+        <div class="navbar-item">
+            <a href="register.html">Регистрaция на рейс</a>
+        </div>
+        <div class="navbar-item">
+            <a href="login.html">Личный кабинет</a>
+        </div>
+    </nav>
+
+    <section>
+        <h1>Поиск рейса</h1>
+        <div class="card-accent">
+            <form action="search.html" method="post" class="input-container">
+                <div class="input-row">
+                    <label for="">Откуда
+                        <input type="text" placeholder="Город/аэропорт">
+                    </label>
+                    <label for="">Куда
+                        <input type="text" placeholder="Город/аэропорт">
+                    </label>
+                </div>
+                <div class="input-row">
+                    <label for="">Туда
+                        <input type="date">
+                    </label>
+                    <label for="">Обратно
+                        <input type="date">
+                    </label>
+                    <label for="">Количество пассажиров
+                        <input type="number" min="1" max="10" placeholder="1-10">
+                    </label>
+                </div>
+                <div class="input-actions">
+                    <input type="submit" value="Поиск" class="button button-white">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <h1>Результаты поиска</h1>
+        <div class="flight-card-item">
+            <div class="info-row airplain-info">
+                <h4 class="flight-id">Код: АВС123</h4>
+                <div class="airplain-id">Судно: АН-26Б-100</div>
+            </div>
+            <div class="info-row flight-info">
+                <div class="info-cell">
+                    <h6>Дата вылета</h6>
+                    <span>01.01.2021 08:00 Иркутск (IKT)</span>
+                </div>
+                <div class="info-cell">
+                    <h6>Дата прибытия </h6>
+                    <span>01.01.2021 16:00 Москва (SVO)</span>
+                </div>
+                <div class="info-cell">
+                    <h6>Время в пути</h6>
+                    <span>8 часов</span>
+                </div>
+                <div class="info-cell">
+                    <h6>Вероятность вылета</h6>
+                    <span>75%</span>
+                </div>
+                <div class="info-row price-info">
+                    <h4 class="price">Стоимость: 5000 Рублей</h4>
+                    <a href="booking.html" class="button button-primary">Забронировать</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flight-card-item">
+            <div class="info-row airplain-info">
+                <h4 class="flight-id">Код: АВС321</h4>
+                <div class="airplain-id">Судно: АН-26Б-100</div>
+            </div>
+            <div class="info-row flight-info">
+                <div class="info-cell">
+                    <h6>Дата вылета</h6>
+                    <span>01.01.2021 16:00 Москва (SVO)</span>
+                </div>
+                <div class="info-cell">
+                    <h6>Дата прибытия </h6>
+                    <span>01.01.2021 08:00 Иркутск (IKT)</span>
+                </div>
+                <div class="info-cell">
+                    <h6>Время в пути</h6>
+                    <span>7 часов</span>
+                </div>
+                <div class="info-cell">
+                    <h6>Вероятность вылета</h6>
+                    <span>65%</span>
+                </div>
+                <div class="info-row price-info">
+                    <h4 class="price">Стоимость: 4000 Рублей</h4>
+                    <a href="booking.html" class="button button-primary">Забронировать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="navbar">
+        <nav class="navbar foot">
+            <div class="navbar-item navbar-logo" id="footer">
+                Телефон: 8 (800) 100-10-10
+            </div>
+            <div class="spacer"></div>
+
+            <div class="navbar-item">
+                <a href="index.html">Главная</a>
+            </div>
+            <div class="navbar-item">
+                <a href="index.html#promo">Акции</a>
+            </div>
+            <div class="navbar-item">
+                <a href="search.html">Поиск</a>
+            </div>
+            <div class="navbar-item">
+                <a href="register.html">Регистрация на рейс</a>
+            </div>
+            <div class="navbar-item">
+                <a href="login.html">Личный кабинет</a>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>

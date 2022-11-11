@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+    .header {
+        background-color: brown;
+        width: 800px;
+    }
+
+    .service {
+        background-color: coral;
+        width: 190px;
+    }
+
+    .project {
+        background-color: blueviolet;
+        width: 290px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        width: 600px;
+    }
+
+    .service {
+        width: 100px;
+        font-size: 10px;
+
+    }
+
+    .project {
+        width: 150px;
+        font-size: 15px;
+    }
+
+
+}

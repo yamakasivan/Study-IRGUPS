@@ -1,0 +1,11 @@
+.freeloc img {
+    height: 100%;
+    width: 350px;
+}
+
+.freeloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}

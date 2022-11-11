@@ -1,0 +1,17 @@
+.login-form {
+    height: calc(100vw - 64px) !important;
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.form-card-container>.card-accent {
+    width: 350px;
+    box-sizing: border-box;
+}
+
+.card-accent>h2 {
+    margin-top: 0;
+}

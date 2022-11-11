@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    width: 100px;
+    padding-top: 100px;
+    margin: 0 auto;
+
+}
+
+.item div {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.item div:nth-child(1) {
+    background-color: orange;
+    animation: up 1s linear 1s infinite;
+}
+
+.item div:nth-child(2) {
+    background-color: rgb(153, 36, 168);
+    animation: up 1s linear 1.2s infinite;
+}
+
+.item div:nth-child(3) {
+    background-color: green;
+    animation: up 1s linear 1.4s infinite;
+}
+
+.item div:nth-child(4) {
+    background-color: rgb(21, 88, 187);
+    animation: up 1s linear 1.6s infinite;
+}
+
+.item div:nth-child(5) {
+    background-color: rgb(21, 197, 74);
+    animation: up 1s linear 1.8s infinite;
+}
+
+@keyframes up {
+
+    0%,
+    100% {
+        transform: translateY(-15px);
+    }
+
+    50% {
+        transform: translate(5px, 0);
+    }
+}

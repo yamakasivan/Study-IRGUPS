@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="media1/logo.ico">
+    <title>Бронирование | FlightPool</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/booking.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-item navbar-logo">
+            <img src="media1/logo.png" alt="">
+        </div>
+        <div class="spacer"></div>
+        <div class="navbar-item">
+            <a href="index.html">Главная</a>
+        </div>
+        <div class="navbar-item">
+            <a href="index.html#promo">Акции</a>
+        </div>
+        <div class="navbar-item">
+            <a href="search.html">Поиск</a>
+        </div>
+        <div class="navbar-item">
+            <a href="register.html">Регистрaция на рейс</a>
+        </div>
+        <div class="navbar-item">
+            <a href="login.html">Личный кабинет</a>
+        </div>
+    </nav>
+
+    <section>
+        <h1>Бронирование полета</h1>
+        <h2>Выбранный рейс</h2>
+        <div class="flight-card-item">
+            <div class="info-row airplain-info">
+                <h4 class="flight-id">Код: АВС123</h4>
+                <div class="airplain-id">Судно: АН-26Б-100</div>
+            </div>
+            <div class="info-row flight-info">
+                <div class="info-cell">
+                    <h6>Дата вылета</h6>
+                    <span>01.01.2021 08:00 Иркутск (IKT)</span>
+                </div>
+                <div class="info-cell">
+                    <h6>Дата прибытия </h6>
+                    <span>01.01.2021 16:00 Москва (SVO)</span>
+                </div>
+                <div class="info-cell">
+                    <h6>Время в пути</h6>
+                    <span>8 часов</span>
+                </div>
+                <div class="info-cell">
+                    <h6>Вероятность вылета</h6>
+                    <span>75%</span>
+                </div>
+                <div class="info-row price-info">
+                    <h4 class="price">Стоимость: 5000 Рублей</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Информация о пассажирах</h2>
+        <div class="flight-card-item">
+            <div class="info-row aitplane-info">
+                <div class="flight-id">Иванов Иван</div>
+            </div>
+            <div class="info-row flight-info">
+                <div class="info-cell">
+                    <h6>Дата рождения</h6>
+                    <span>01.01.1980</span>
+                </div>
+                <div class="info-cell">
+                    <h6>Номер документа</h6>
+                    <span>12 3* ******</span>
+                </div>
+                <div class="info-cell">
+                    <button class="button button-primary">
+                        Удалить пассажира
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="passenger-info">
+            <div class="form-header">
+                <h3>Добавить пассажира</h3>
+                <h5>Заполните всю необходимую информацию</h5>
+            </div>
+            <form action="" class="passenger-info">
+                <div class="input-row">
+                    <input type="text" placeholder="Фамилия" required>
+                    <input type="text" placeholder="Имя" required>
+                    <input type="text" placeholder="Отчество">
+                </div>
+                <div class="input-row">
+                    <label for="">
+                        Дата рождения
+                        <input type="date" required>
+                    </label>
+                    <label for="">
+                        Серия и номер паспорта
+                        <input type="text" placeholder="10 цифр без пробелов" maxlength="10" required>
+                    </label>
+                </div>
+                <div class="input-actions">
+                    <button class="button button-primary">
+                        Добавить пассажира
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <h2>Финальная стоимость</h2>
+        <ul class="total">
+            <li>Код: АВС123</li>
+            <li>&times; 1 пассажир</li>
+            <li>Итоговая стоимость: <b> 5000 Рублей</b></li>
+        </ul>
+        <a href="login.html" class="button button-primary">Оформить бронирование</a>
+    </section>
+
+
+    <footer class="navbar">
+        <nav class="navbar foot">
+            <div class="navbar-item navbar-logo" id="footer">
+                Телефон: 8 (800) 100-10-10
+            </div>
+            <div class="spacer"></div>
+
+            <div class="navbar-item">
+                <a href="index.html">Главная</a>
+            </div>
+            <div class="navbar-item">
+                <a href="index.html#promo">Акции</a>
+            </div>
+            <div class="navbar-item">
+                <a href="search.html">Поиск</a>
+            </div>
+            <div class="navbar-item">
+                <a href="register.html">Регистрация на рейс</a>
+            </div>
+            <div class="navbar-item">
+                <a href="login.html">Личный кабинет</a>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>

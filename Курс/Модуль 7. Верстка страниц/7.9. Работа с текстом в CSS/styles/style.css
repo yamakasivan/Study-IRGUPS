@@ -1,0 +1,51 @@
+p {
+    font-family: Courier;
+}
+
+#kapit {
+    font-variant: small-caps;
+}
+
+.normal {
+    font-weight: normal;
+    font-size: 16px;
+    /* значение 16px установлено по умолчанию для HTML, normal не подходит как значение */
+}
+
+.lighter {
+    font-weight: lighter;
+    font-size: 17pt;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.bolder {
+    font-weight: bolder;
+    font-size: 200%;
+    line-height: normal;
+}
+
+.mychoise {
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.mychoiseone {
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.mychoisetwo {
+    font-weight: 700;
+    line-height: 150%;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}

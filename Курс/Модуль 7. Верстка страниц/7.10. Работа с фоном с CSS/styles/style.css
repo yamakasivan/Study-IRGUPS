@@ -1,0 +1,31 @@
+body {
+    background-image: url(../pics/main_bg.png);
+    background-color: #fff;
+}
+
+div {
+    display: inline-block;
+    background: url(../pics/small_bg.png);
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 200px;
+    background-color: azure;
+}
+
+.noRepeat {
+    background-repeat: no-repeat;
+    background-position: 30% 30%;
+}
+
+.repeatX {
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+.repeatY {
+    background-repeat: repeat-y;
+    background-position: right;
+}

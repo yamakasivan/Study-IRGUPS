@@ -1,0 +1,66 @@
+.seat-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seat-container {
+    display: flex;
+    padding: 16px;
+    gap: 8px;
+    flex-direction: column;
+    background: var(--primary-light);
+    border-radius: 12px;
+}
+
+.seat-spacer {
+    width: 1rem;
+    height: 1rem;
+}
+
+.seat {
+    width: 2rem;
+    height: 2rem;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.seat:not(.seat-occupied) {
+    transition: color .05s ease-in-out,
+        border-color .05s ease-in-out,
+        background-color .05s ease-in-out;
+}
+
+.seat-occupied {
+    color: gray;
+    background-color: #e2e8ee;
+    border-color: #bcc9d6;
+}
+
+.seat-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.seat:focus {
+    outline: none;
+}
+
+.seat-active {
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
+
+.seat:not(.seat-occupied):focus {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.select-confirm {
+    height: 32px;
+    margin-bottom: 24px;
+    padding-top: 24px;
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+section {
+    width: 800px;
+    margin: 150px auto;
+}
+
+.carousel {
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    padding: 15px 0;
+    list-style: none;
+
+}
+
+.carousel-card {
+    flex: 1 0 auto;
+    max-width: 400px;
+    height: 240px;
+    border-radius: 10px;
+    padding: 8px 15px;
+    color: white;
+    --background-gradient: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+}
+
+.carousel-card-body {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#elem-1 {
+    background: var(--background-gradient), url(../img/1.jpg);
+}
+
+#elem-2 {
+    background-image: var(--background-gradient), url(../img/2.jpeg);
+}
+
+#elem-3 {
+    background-image: var(--background-gradient), url(../img/3.jpg);
+}
+
+#elem-4 {
+    background-image: var(--background-gradient), url(../img/4.jpg);
+}
+
+*::-webkit-scrollbar {
+    /* background: transparent; или display: none;  Эти почему-то сами изменяются, когдам меняем -webkit-scrollbar-thumb*/
+    height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}

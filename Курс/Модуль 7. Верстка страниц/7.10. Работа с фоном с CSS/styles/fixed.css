@@ -1,0 +1,10 @@
+div {
+    height: 100px;
+}
+
+.twoblock {
+    background: url(../pics/nich.jpg) repeat-x center;
+    /* background-attachment: fixed; не действует, поскольку нет контента для прокрутки */
+    background-size: contain;
+    /* просто захотел, чтобы картинка была полностью */
+}

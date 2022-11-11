@@ -1,0 +1,22 @@
+.block1 {
+    position: absolute;
+    margin-top: 100px;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(161, 106, 106);
+}
+
+.block2 {
+    position: static;
+    height: 100px;
+    background-color: aqua;
+}
+
+.block3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+}

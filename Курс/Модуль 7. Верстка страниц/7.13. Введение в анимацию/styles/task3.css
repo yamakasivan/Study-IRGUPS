@@ -1,0 +1,64 @@
+div {
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: green;
+    margin-bottom: 5px;
+    position: relative;
+    animation-name: iliketomoveit;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.ease {
+    animation-timing-function: ease;
+    animation-direction: normal;
+}
+
+.linear {
+    animation-timing-function: linear;
+    animation-direction: reverse;
+
+}
+
+.ease-in {
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+
+}
+
+.ease-out {
+    animation-timing-function: ease-out;
+    animation-direction: alternate-reverse;
+
+}
+
+.ease-in-out {
+    animation-timing-function: ease-in-out;
+}
+
+.cubic-bezier {
+    animation-timing-function: cubic-bezier(.94, .06, .83, .67);
+}
+
+.cubic-bezier:hover {
+    animation-play-state: paused;
+}
+
+@keyframes iliketomoveit {
+    0% {
+        left: 0px;
+    }
+
+    25% {
+        left: 400px;
+    }
+
+    50% {
+        left: 200px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}

@@ -1,0 +1,55 @@
+li {
+    list-style-type: upper-roman;
+}
+
+li.twin:nth-child(even) {
+    list-style-type: circle;
+    color: blue;
+}
+
+li.twin:nth-child(odd) {
+    list-style-type: square;
+    color: gray;
+}
+
+li.three {
+    list-style-type: circle;
+    list-style-position: inside;
+    border: 2px dashed orange;
+    background-color: rgb(148, 49, 49);
+    color: white;
+    padding-left: 10px;
+    width: 100px;
+}
+
+li.four {
+    list-style-type: circle;
+    list-style-position: outside;
+    border: 2px dashed rgb(128, 83, 0);
+    background-color: rgb(255, 107, 107);
+    padding-left: 5px;
+    width: 100px;
+}
+
+li.five {
+    list-style-image: url(../pics/list.png);
+}
+
+li.six {
+    list-style-type: none;
+}
+
+/* в задании не хватает еще одного двоеточия":". 
+добавил иконку как буд-то к ссылке=) */
+li.six a::before {
+    content: url(../pics/link.png);
+    padding-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    background-color: aqua;
+}
+
+/* Оценка не снизится за самодеятельность?=) */

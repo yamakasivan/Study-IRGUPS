@@ -1,0 +1,7 @@
+Home * (http://xxxxxx)
+Login * (http://xxxxxx/login)
+Sign up * (http://xxxxxx/signup)
+Contact * (http://xxxxxx/contact)
+News * (http://xxxxxx/news)
+Return * (http://xxxxxx/return)
+Feedback * (http://xxxxxx/feedback)

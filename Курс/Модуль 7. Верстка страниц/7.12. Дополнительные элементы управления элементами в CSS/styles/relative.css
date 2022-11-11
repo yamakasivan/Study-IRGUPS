@@ -1,0 +1,12 @@
+div {
+    height: 50px;
+    background-color: rgb(34, 124, 146);
+}
+
+.relative {
+    position: relative;
+    height: 100px;
+    background-color: rgb(44, 146, 34);
+    top: 50px;
+    left: 50px;
+}

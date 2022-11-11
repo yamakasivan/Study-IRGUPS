@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p><b>Мартышка</b> к старости слаба глазами стала;</p>
+    <p>А у <em>людей</em> она <i>слыхала</i>,</p>
+    <p>Что это <strong>зло</strong> еще не так <sub>большой</sub> <sup>руки</sup>:</p>
+    <p>Лишь <ins>стоит</ins> завести <del>Очки</del>.</p>
+
+    <a href="new.html"><img src="pics/click_next.png" alt="Какой-то текст" height="30"></a>
+    <br>
+    <img src="pics/Next.jpg" alt="Картинка" height="300">
+
+    <br><br>
+
+    <!-- Поставил border="1" и align="center" для наглядности таблицы. 
+        Я понимаю, что это надо через CSS, без них валидацию прохожу -->
+    <table border="1">
+        <caption>Таблица 1. Заявки</caption>
+        <thead>
+            <tr align="center">
+                <th>Группа</th>
+                <th colspan="2">Заявки</th>
+                <th>Параметр1</th>
+                <th>Итог</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="center">
+                <td rowspan="2">1</td>
+                <td>Количество</td>
+                <td>Сумма</td>
+                <td rowspan="2">10</td>
+                <td>45</td>
+            </tr>
+            <tr align="center">
+                <td>5</td>
+                <td>100</td>
+                <td>200</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <form action="адрес_файла">
+        Фамилия:<input type="text" name="lastname">
+        Имя:<input type="text" name="firstname“>">
+        Отчество:<input type="text" name="otch"><br><br>
+        Логин:<input type="text" name="login"><br><br>
+        Пароль: <input type="password" name="pass"><br><br>
+        Выберите пол: <br>
+        <input type="radio" name="sex" value="men" checked>мужчина
+        <input type="radio" name="sex" value="women">женщина<br><br>
+        Любимое время года:<br>
+        <input type="radio" name="season" value="winter" checked>Зима
+        <input type="radio" name="season" value="spring">Весна
+        <input type="radio" name="season" value="summer ">Лето
+        <input type="radio" name="season" value="autumn">Осень<br><br>
+        Любимый вид транспорта:<br>
+        <input type="checkbox" name="bicycle">Велосипед
+        <input type="checkbox" name="car">Машина
+        <input type="checkbox" name="plane">Самолет
+        <input type="checkbox" name="m_basin">Металический таз<br><br>
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+
+</html>
