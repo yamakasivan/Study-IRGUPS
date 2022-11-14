@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post" onsubmit="return checkForm(this)">
+        <label for="lastname"> Фамилия:</label>
+        <input type="text" name="lastname" id="lastname">
+        <br><br>
+
+        <label for="firstname"> Имя: </label>
+        <input type="text" name="firstname" id="firstname">
+        <br><br>
+
+        <span> Пол: </span>
+        <br>
+        <label for="male">м</label>
+        <input type="radio" value="man" name="sex" id="male">
+
+        <label for="female">ж</label>
+        <input type="radio" value="woman" name="sex" id="female">
+        <br><br>
+
+        <label for="password">Пароль:</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+
+        <label for="repeatpass">Повторить пароль:</label>
+        <input type="password" name="repeatpass" id="repeatpass">
+        <br><br>
+
+        <input type="submit" name="submit" value="Сохранить">
+        <span id="error"></span>
+
+    </form>
+
+
+    <script src="task2.js"></script>
+</body>
+
+</html>

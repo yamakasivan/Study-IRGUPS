@@ -6,7 +6,6 @@ function mousehover(elem) {
     elem.style.fontSize = '25px';
 }
 
-let click = document.getElementById("but")
 function onClickBut(but) {
     but.style.fontSize = '25px';
     but.style.height = "150px";
