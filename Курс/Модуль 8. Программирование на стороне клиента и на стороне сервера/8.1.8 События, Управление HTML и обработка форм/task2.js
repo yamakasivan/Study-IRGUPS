@@ -4,7 +4,6 @@ function checkForm(elem) {
     let sex = elem.sex.value;
     let password = elem.password.value;
     let repeatpass = elem.repeatpass.value;
-    // let submit = elem.submit.value
 
     let fail = "";
 
