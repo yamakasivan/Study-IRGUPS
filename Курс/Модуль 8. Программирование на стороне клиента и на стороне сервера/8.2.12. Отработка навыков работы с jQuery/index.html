@@ -17,32 +17,29 @@
             width: 50px;
             margin-top: 15px;
         } */
-        select {
-            float: left;
-        }
-
+        select,
         div {
-            float: right;
+            float: left;
         }
     </style>
 </head>
 
 <body>
-    <!-- <button class="btn">Кнопка</button> -->
+    <button class="btn">Кнопка</button>
 
-    <select name="" id="">
+    <select name="" id="sel">
         <option selected disabled>Выберите город</option>
-        <option class="Mos">Москва</option>
-        <option class="Nov">Новосибирск</option>
-        <option class="Irk">Иркутск</option>
+        <option value="mos">Москва</option>
+        <option value="nov">Новосибирск</option>
+        <option value="irk">Иркутск</option>
     </select>
 
     <div>
-        <input type="radio" name="sity" id="Mos">Москва
+        <input type="radio" name="sity" id="mos" value="mos">Москва
         <br>
-        <input type="radio" name="sity" id="Nov">Новосибирск
+        <input type="radio" name="sity" id="nov">Новосибирск
         <br>
-        <input type="radio" name="sity" id="Irk">Иркутск
+        <input type="radio" name="sity" id="irk">Иркутск
     </div>
 
     <!-- <input type="text" class="inp" value="">
