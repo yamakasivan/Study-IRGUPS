@@ -116,7 +116,7 @@ $(document).ready(function () {
         // 27
         $(this).prevUntil(":header").remove();
 
-        // 28 
+        // 28
         $(this).nextAll(".www").first().remove();
 
         // 29
@@ -182,7 +182,7 @@ $(document).ready(function () {
         // 45
         $("#test").html($("#test").children().get().reverse());
 
-        // 46 
+        // 46
         let prev = $("#text").prevAll().get().reverse();
         let next = $("#text").nextAll();
         $("#text").after(prev).before(next);
